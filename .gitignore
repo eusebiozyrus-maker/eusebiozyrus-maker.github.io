@@ -1,0 +1,18 @@
+# Ignore entire directories (add a trailing slash)
+bin/
+obj/
+__pycache__/
+node_modules/
+
+# Ignore specific files
+.env
+appsettings.json
+credentials.xml
+
+# Ignore all files with a specific extension
+*.log
+*.zip
+*.exe
+
+# Ignore VS Code workspace settings
+.vscode/
